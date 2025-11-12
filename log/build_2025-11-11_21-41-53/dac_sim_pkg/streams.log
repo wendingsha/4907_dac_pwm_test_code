@@ -1,0 +1,24 @@
+[0.679s] Invoking command in '/home/ubuntu/ros2_ws/src/dac_sim_pkg': PYTHONPATH=/home/ubuntu/ros2_ws/build/dac_sim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/dac_sim_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dac_sim_pkg build --build-base /home/ubuntu/ros2_ws/build/dac_sim_pkg/build install --record /home/ubuntu/ros2_ws/build/dac_sim_pkg/install.log --install-scripts $base/lib/dac_sim_pkg --single-version-externally-managed install_data
+[0.901s] running egg_info
+[0.901s] writing ../../build/dac_sim_pkg/dac_sim_pkg.egg-info/PKG-INFO
+[0.902s] writing dependency_links to ../../build/dac_sim_pkg/dac_sim_pkg.egg-info/dependency_links.txt
+[0.902s] writing entry points to ../../build/dac_sim_pkg/dac_sim_pkg.egg-info/entry_points.txt
+[0.902s] writing requirements to ../../build/dac_sim_pkg/dac_sim_pkg.egg-info/requires.txt
+[0.903s] writing top-level names to ../../build/dac_sim_pkg/dac_sim_pkg.egg-info/top_level.txt
+[0.934s] reading manifest file '../../build/dac_sim_pkg/dac_sim_pkg.egg-info/SOURCES.txt'
+[0.935s] writing manifest file '../../build/dac_sim_pkg/dac_sim_pkg.egg-info/SOURCES.txt'
+[0.935s] running build
+[0.936s] running build_py
+[0.936s] copying dac_sim_pkg/dac_sim_node.py -> /home/ubuntu/ros2_ws/build/dac_sim_pkg/build/lib/dac_sim_pkg
+[0.936s] running install
+[0.936s] running install_lib
+[0.937s] copying /home/ubuntu/ros2_ws/build/dac_sim_pkg/build/lib/dac_sim_pkg/dac_sim_node.py -> /home/ubuntu/ros2_ws/install/dac_sim_pkg/lib/python3.8/site-packages/dac_sim_pkg
+[0.938s] byte-compiling /home/ubuntu/ros2_ws/install/dac_sim_pkg/lib/python3.8/site-packages/dac_sim_pkg/dac_sim_node.py to dac_sim_node.cpython-38.pyc
+[0.939s] running install_data
+[0.939s] running install_egg_info
+[0.941s] removing '/home/ubuntu/ros2_ws/install/dac_sim_pkg/lib/python3.8/site-packages/dac_sim_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.941s] Copying ../../build/dac_sim_pkg/dac_sim_pkg.egg-info to /home/ubuntu/ros2_ws/install/dac_sim_pkg/lib/python3.8/site-packages/dac_sim_pkg-0.0.0-py3.8.egg-info
+[0.942s] running install_scripts
+[0.957s] Installing dac_sim_node script to /home/ubuntu/ros2_ws/install/dac_sim_pkg/lib/dac_sim_pkg
+[0.957s] writing list of installed files to '/home/ubuntu/ros2_ws/build/dac_sim_pkg/install.log'
+[0.975s] Invoked command in '/home/ubuntu/ros2_ws/src/dac_sim_pkg' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/dac_sim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/dac_sim_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dac_sim_pkg build --build-base /home/ubuntu/ros2_ws/build/dac_sim_pkg/build install --record /home/ubuntu/ros2_ws/build/dac_sim_pkg/install.log --install-scripts $base/lib/dac_sim_pkg --single-version-externally-managed install_data

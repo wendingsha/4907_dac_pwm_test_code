@@ -1,0 +1,3 @@
+[console_scripts]
+pwm_sim_node = dac_sim_pkg.pwm_sim_node:main
+
