@@ -12,7 +12,7 @@ class DacSimNode(Node):
             self.listener_callback,
             10)
         self.subscription
-        self.get_logger().info("✅ DAC Simulation Node started. Waiting for AckermannDrive messages...")
+        self.get_logger().info("DAC Simulation Node started. Waiting for AckermannDrive messages...")
 
     def listener_callback(self, msg):
         accel = msg.acceleration
