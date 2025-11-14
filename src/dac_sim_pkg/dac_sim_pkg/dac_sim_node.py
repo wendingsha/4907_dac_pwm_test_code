@@ -18,11 +18,11 @@ class DacSimNode(Node):
         accel = msg.acceleration
         steering = msg.steering_angle
 
-        # 判断方向
+        # Determine direction
         direction = "FORWARD" if accel >= 0 else "REVERSE"
         accel = abs(accel)
 
-        # 将加速度映射到 0–4095 DAC 输出
+        # Map the acceleration to a 0–4095 DAC output
         accel_clamped = min(max(accel, 0.0), 3200.0)
         dac_value = int(accel_clamped / 3200.0 * 4095.0)
         voltage = dac_value / 4095.0 * 5.0
